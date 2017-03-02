@@ -1,0 +1,14 @@
+<ons-page ng-controller="HomeDetailController">
+  <ons-toolbar>
+    <div class="left"><ons-back-button>Back</ons-back-button></div>
+    <div class="center">Detail</div>
+  </ons-toolbar>
+
+  <div class="content">
+    <p>You choice {{num}}.</p>
+    
+    <ons-button modifier="large" ng-click="showDialog('Thanks play!')">Correct</ons-button>
+    <div style="margin:16px"></div>
+    <ons-button modifier="large--quiet" ng-click="showDialog('You are tired.')">No</ons-button>
+  </div>
+</ons-page>

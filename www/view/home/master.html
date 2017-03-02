@@ -1,0 +1,14 @@
+<ons-page ng-controller="HomeMasterController">
+  <ons-toolbar>
+    <ons-back-button>Back</ons-back-button>
+    <div class="center">Master</div>
+  </ons-toolbar>
+
+  <div class="content">
+    <h3>Choose the number.</h3>
+    <ons-list>
+      <ons-list-header>Numbers</ons-list-header>
+      <ons-list-item ng-repeat="n in numbers" ng-click="showDetail(n)" tappable>{{n}}</ons-list-item>
+    </ons-list>
+  </div>
+</ons-page>

@@ -1,0 +1,18 @@
+<ons-page ng-controller="AccountController">
+  <ons-toolbar>
+    <div class="center">GitHub Account</div>
+  </ons-toolbar>
+  <div class="content">
+    <img ng-src="{{onsenui.avatar_url}}" style="width:100%" />
+    <h3 style="text-align:center">{{onsenui.login}}</h3>
+    
+    <ons-list>
+      <ons-list-item>Github: {{onsenui.html_url}}</ons-list-item>
+      <ons-list-item>Repogitories: {{onsenui.public_repos}}</ons-list-item>
+      <ons-list-item>Last Update: {{onsenui.updated_at | date: 'yyyy/MM/dd HH:mm:ss'}}</ons-list-item>
+    </ons-list>
+
+    <h4>JSON</h4>
+    <pre style="background-color:#eee;font-size:small;overflow:scroll">{{onsenui | json}}</pre>
+  </div>
+</ons-page>
