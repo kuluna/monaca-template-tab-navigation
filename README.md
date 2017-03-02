@@ -10,6 +10,11 @@ iOS
 Android  
 ![Android](docs/android.png)
 
+# インストール
+1. [zip download](https://github.com/kuluna/monaca-template-tab-navigation/archive/master.zip)
+1. monacaにログインし、Import Projectをクリック
+1. 「プロジェクトのパッケージをアップロード」をクリックし、ダウンロードしたzipをmonacaにアップロード
+
 # 機能
 - タブとナビゲーションの組み合わせ
 - 画面遷移時の値渡し
