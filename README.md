@@ -5,7 +5,7 @@ Tab-navigation template for monaca
 
 # スクリーンショット
 iOS  
-![iOS](docs/ios.png)
+![iOS](docs/ios.gif)
 
 Android  
 ![Android](docs/android.png)
@@ -26,7 +26,6 @@ Android
 
 ```
 index.html(Tab)
-│
 │
 ├─view/home.html(Navigation)
 │  ├─master.html

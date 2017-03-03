@@ -13,10 +13,9 @@ ons.bootstrap()
       // Push page with params
       home.nav.pushPage('view/home/detail.html', { data: { num: number } });
     };
-    
+
 
     function number100() {
-      // faster than new Array[100]
       const box = [];
       for (var i=1; i <= 100; i++) {
         box.push(i);
@@ -44,10 +43,11 @@ ons.bootstrap()
       }
     });
   });
-  
-  
+
+
+// Cordova ready
 ons.ready(function() {
-  // Nifty Mobile Backend(Push)
+  // Nifty Mobile Backend(Push notification)
   /*
   window.NCMB.monaca.setDeviceToken(
     "", // Nifty application key
