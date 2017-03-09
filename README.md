@@ -35,10 +35,7 @@ index.html(Tab)
 ```
 
 `index.html`にタブタグが、`view/home.html`にナビゲーションタグがあります。これらを起点として画面遷移が行われます。
-
-Tabは`view/home.html`と、`view/account.html`の表示をスイッチします。Navigationは`view/master.html`と`view/detail.html`の表示を切り替えます。  
-アプリが開いている間、`view/home.html`は画面遷移の状態を保持します。よってdetailを表示している状態でAccountタブに切り替えても、もう一度Homeタブに切り替えた時detailが開かれた状態のままとなります。  
-__この挙動はスマートフォンネイティブアプリの動作と同じため、仕様です。__
+より詳細な技術情報は[Qiita](http://qiita.com/kuluna/items/fe0a2a6bb549b88aead8)を参照してください。
 
 # ライセンス
 MIT License.
