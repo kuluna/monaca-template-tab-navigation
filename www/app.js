@@ -16,7 +16,7 @@ ons.bootstrap()
 
 
     function number100() {
-      const box = [];
+      var box = [];
       for (var i=1; i <= 100; i++) {
         box.push(i);
       }
@@ -25,7 +25,7 @@ ons.bootstrap()
   })
   .controller('HomeDetailController', function($scope) {
     // Get the params from pushed page
-    const extra = home.nav.topPage.data;
+    var extra = home.nav.topPage.data;
     $scope.num = extra.num;
     
     // Dialog function
